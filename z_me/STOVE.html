@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        ul {
+            list-style: none;
+            display: block;
+            margin-top: 30px;
+            
+        }
+        li {
+            float:left;
+            margin-right: 4px;
+            margin-bottom: 20px;
+            color: rgb(125, 125, 125);           
+        }
+        
+    </style>
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOVE</title>
+    <link
+    rel="shortcut icon"
+    href="https://accounts.onstove.com/favicon/stove/favicon.ico"
+    type="image/x-icon"
+/>
+</head>
+<body>
+
+<div class="__layout" style="margin: auto; ">
+<div class="layout" style="padding-top:10%; width: 456px; height: 647px; max-width : 456px; display: block; margin: auto;">
+                
+                
+    <div class ="layout-top" style="text-align: center;">
+        <a href="https://www.onstove.com/"> 
+            <img src="stove_title.png" width="141px" height="34.5px">
+        </a>
+    </div>               
+
+
+<!--로그인 -->
+<div class="body-out">
+<form action="#" id="login-form">
+
+
+<div class="login-input" style="text-align: center; margin-top: 30px;">
+        
+        <fieldset  style= "border : 0;" >
+        <!--이메일 아이디 입력-->
+        <div class="id-input">
+            <input type="text" name="text" style="border-radius: 5px; border: 1px solid rgb(245, 245, 245); background-color: rgb(245, 245, 245); width : 382px; height: 40px; padding-left: 20px;" placeholder="이메일 또는 아이디"> 
+        </div>
+        
+        <!--비밀번호 입력-->
+        <div class="password"> 
+            <input type="password" name="text" style="border-radius: 5px; border: 1px solid rgb(245, 245, 245); background-color: rgb(245, 245, 245); width : 382px; height: 40px; padding-left: 20px; margin-top: 10px;" placeholder="비밀번호">
+        </div>
+
+        <!--로그인 유지 체크박스-->
+        <div class="login-checkbox"
+        style=" text-align: left;margin-top:10px; padding-left: 2%;">
+            <input id="forever" type="checkbox" name="forever" value="False" style="width: 20px;height: 20px; border-radius: 5px; border:1px solid rgb(125, 125, 125); display : inline-block;"
+        >
+            <label for="forever" class="checkbox-laber"
+        > 로그인 유지 </label>
+        </div>
+
+        <!--로그인 버튼-->
+        <div class="login-button">
+            <button type="button" class = "login-button" default ="default"
+            style="width: 410px; height: 44px; padding-left: 16px; padding-right: 16px; border: 2px; border-radius: 5px;
+            background-color: rgb(237,107,55); color: aliceblue; font-size: 20; font-weight: 700; margin-top: 30px;">
+            <span class="button-text">로그인</span>
+            </button>
+        </div>
+        </fieldset>
+        <!--로그인 인풋 끝-->
+        
+            
+</div>           
+</form>
+
+<!----또는---->
+       <div id="bar" style="font-size: 13px; color:rgb(153, 150, 150); text-align: center; margin-top: 30px">
+        <p>      
+            <hr style="display: inline-block; padding-left: 40%;">   
+                또는   
+            <hr style="display: inline-block; padding-right:40%;">
+        </p>
+        </div>
+    
+<!--SNS 로그인 선택 아이콘 -->
+    <div class="choice" style="margin-left: 12%;">
+    
+<!--구글-->
+        <ul class = sns-list>
+        <li class="google">
+        <a href="#">
+            <span class="choice-sns-text-font" default="default">
+                <span><img src="google.png" width="50px"> </span>
+            </span>
+        </a>
+        </li>
+<!--페이스북-->
+        <li class="facebook">
+            <a href="#">
+                <span class="choice-sns-text-font" default="default">
+                    <span><img src="facebook.png" width="50px"> </span>
+                </span>
+            </a>
+        </li>
+<!--네이버-->
+        <li class="naver">
+            <a href="#">
+                <span class="choice-sns-text-font" default="default">
+                    <span><img src="naver.png" width="50px"> </span>
+                </span>
+            </a>
+        </li>
+<!--트위터-->
+        <li class="X">
+            <a href="#">
+                <span class="choice-sns-text-font" default="default">
+                    <span><img src="X.png" width="50px"> </span>
+                </span>
+            </a>
+        </li>
+<!--애플-->
+        <li class="apple">
+            <a href="#">
+                <span class="choice-sns-text-font" default="default">
+                    <span><img src="apple.png" width="50px"> </span>
+                </span>
+            </a>
+        </li>
+        </ul>
+        
+    </div> 
+<!--SNS 아이콘 선택 끝-->    
+
+<!--아이디찾기 / 비밀번호 찾기 / 회원가입 -->
+<div class="choice-menu">
+    <ul style>
+        <li style="margin-right: 30px; margin-left: 40px;">아이디 찾기</li>
+        <li style="margin-right: 30px;">비밀번호 찾기</li>
+        <li>회원가입</li>
+    </ul>
+</div>
+
+<!-- 언어 선택 -->
+<div class = "language" style="text-align: center;">
+    <select name="major" style="width: 150px; height: 35px;border-radius: 5px; border: 1px solid rgb(196, 189, 189)">
+        <option value="" selected>한국어</option>
+        <option value="computer">Deutsch</option>
+        <option value="model">English (US)</option>
+        <option value="nurse">English (LA)</option>
+        <option value="music">Français</option>
+        <option value="mechanic">日本語</option>
+        <option value="messcom">中国人</option>
+        <option value="management">latin</option>
+    </select>
+</div>
+
+
+</div>    
+</div>
+
+
+</body>
+</html>
